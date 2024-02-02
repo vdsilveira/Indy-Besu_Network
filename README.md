@@ -4,7 +4,7 @@
 
 #### 🔎 [Saiba mais...](https://github.com/DSRCorporation/indy-node)
 
-## Executando rede local
+## Executando uma rede local
 
 
 ### Pré-requisitos
