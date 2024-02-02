@@ -32,3 +32,6 @@
     ```
 
 * **Remova a rede: pare e remova todos os contêineres e imagens**
+    ```bash
+    ./network/scripts/remove.sh
+    ```
