@@ -16,7 +16,7 @@
 
 ## Comandos
 
-* **Clone o repositório: - clone as pastas para sua maquina**
+* **Clone o repositório: - clone o repositóio  para sua maquina**
     ```bash
     git clone https://github.com/vdsilveira/Indy-Besu_For_DIDs-Anoncreds.git
 
