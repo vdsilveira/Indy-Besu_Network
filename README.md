@@ -16,6 +16,12 @@
 
 ## Comandos
 
+* **Clone o repositório: - clone as pastas para sua maquina**
+    ```bash
+    git clone https://github.com/vdsilveira/Indy-Besu_For_DIDs-Anoncreds.git
+
+    ```
+
 * **Inicie a rede: - execute todos os serviços dentro dos contêineres docker**
     ```bash
     ./network/scripts/run.sh
