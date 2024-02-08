@@ -1,5 +1,5 @@
 
-**Este repositório é baseado em uma prova de conceito (PoC) da DSR. O objetivo era provar a possibilidade de usar Indy Besu como base para Indy Ledger e mostrar como isso poderia ser feito.**
+**Este repositório é baseado em uma prova de conceito (PoC) da DSR. O objetivo era comprovar a viabilidade de usar o Indy Besu como base para o Indy Ledger e demonstrar como isso poderia ser realizado.**
 
 
 #### 🔎 [Saiba mais...](https://github.com/DSRCorporation/indy-node)
@@ -16,24 +16,24 @@
 
 ## Comandos
 
-* **Clone o repositório: - clone as pastas para sua maquina**
+* **Clone o repositório: - copie as pastas para sua máquina**
     ```bash
     git clone https://github.com/vdsilveira/Indy-Besu_For_DIDs-Anoncreds.git
 
 
     ```
 
-* **Inicie a rede: - execute todos os serviços dentro dos contêineres docker**
+* **Inicie a rede: - execute todos os serviços dentro dos contêineres Docker**
     ```bash
     ./network/scripts/run.sh
     ```
 
-* **Pare a rede: - Pause todos os serviços dentro dos contêineres docker**
+* **Pare a rede: - Pause todos os serviços dentro dos contêineres Docker**
     ```bash
     ./network/scripts/stop.sh
     ```
 
-* **Retorne a rede: - Ao executar novamente  a rede e você poderá retomar de onde parou com**
+* **Retorne a rede: - Ao executar novamente a rede, você poderá retomar de onde parou**
     ```bash
     ./network/scripts/resume.sh
     ```
@@ -47,7 +47,7 @@
 
    [Abra a IDE remix](https://remix.ethereum.org/)
 
-* #### Suba a pasta contracts do repositorio para a IDE:
+* #### Faça o upload da pasta contracts do repositório para a IDE:
    
    `../indy-besu/smart_contracts/contracts`
   
@@ -57,7 +57,7 @@
   <img src="./img/Captura de tela de 2024-02-08 10-59-44.png">
 
 
-- #### Na IDE remix compile o contrato:
+- #### Compile o contrato na IDE Remix:
   <img src="./img/Captura de tela de 2024-02-08 08-38-35.png">
 
 - #### No arquivo genesis.json você   encontrará  o endereço do contrato:
@@ -80,7 +80,7 @@
    * `contracts/upgrade`UpgradeControl.sol -`0x431b0ec220a7f17b7c89ddd7375f36929332d3c8`
 
   
-- #### Chame os contratos:
+- #### Chame os contratos inteligentes:
   <img src="./img/Captura de tela de 2024-02-08 08-46-25.png">
 
 
@@ -94,7 +94,7 @@
 
 ##  🔗 Interagindo com os  contratos Inteligentes 
 
-   `OBS: Utilize as Tuplas a seguir para interagir com os contratos na seguinte ordem`
+   `OBS: Utilize as tuplas a seguir para interagir com os contratos na ordem especificada`
 #### 1 - Create DID:
 
 
