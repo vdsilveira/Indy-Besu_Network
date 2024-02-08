@@ -45,12 +45,12 @@
 
 ## 📄 Inicializando contratos Inteligentes 
 
-     [Abra a IDE remix](https://remix.ethereum.org/)
+   [Abra a IDE remix](https://remix.ethereum.org/)
 
 * #### Suba a pasta contracts do repositorio para a IDE:
-    ```bash
-    ../indy-besu/smart_contracts/contracts
-    ```
+   
+   `../indy-besu/smart_contracts/contracts`
+  
   <img src="./img/Captura de tela de 2024-02-08 08-33-58.png">
 
 * #### Chame os contratos:
@@ -62,7 +62,7 @@
 - #### No arquivo genesis.json você   encontrará  o endereço do contrato:
 
     
-     ../indy-besu/network/config/besu
+   `../indy-besu/network/config/besu`
  
   <img src="./img/Captura de tela de 2024-02-08 08-44-37.png">
   
@@ -70,7 +70,7 @@
 
 
 - #### Inicializando os contratos
-     Obs: É necessario a inicialização de todos so contratos antes de conseguir utilizar as funções
+   `OBS: É necessario a inicialização de todos so contratos antes de conseguir utilizar as funções`
 
   <img src="./img/Captura de tela de 2024-02-08 09-00-04.png">
 
@@ -89,7 +89,7 @@
 
 ##  🔗 Interagindo com os  contratos Inteligentes 
 
-     OBS: Utilize as Tuplas a seguir para interagir com os contratos na seguinte ordem
+   `OBS: Utilize as Tuplas a seguir para interagir com os contratos na seguinte ordem`
 #### 1 - Create DID:
 
 
