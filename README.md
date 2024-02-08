@@ -67,7 +67,7 @@
  
   <img src="./img/Captura de tela de 2024-02-08 08-44-37.png">
   
- #### Lista de endereço dos contratos:
+     #### Lista de endereço dos contratos:
 
 
    * `contracts/auth/`  AccountControl.sol - `0xaf926ec0acfe1ea2df5da1154ff901ffe158cc77`
@@ -80,7 +80,7 @@
    * `contracts/upgrade`UpgradeControl.sol -`0x431b0ec220a7f17b7c89ddd7375f36929332d3c8`
 
   
-* #### Chame os contratos:
+- #### Chame os contratos:
   <img src="./img/Captura de tela de 2024-02-08 08-46-25.png">
 
 
