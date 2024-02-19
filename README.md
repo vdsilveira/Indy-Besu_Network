@@ -59,7 +59,7 @@ O MetaMask é uma carteira de criptomoedas e uma extensão de navegador que perm
    `OBS: as configurações de Porta e Chain Id podem ser alteradas no genesis.json [.network/config/besu/genesis.json]`
 
 
-<img src="./img/CCaptura de tela de 2024-02-19 12-40-32.png">
+<img src="./img/Captura de tela de 2024-02-19 12-40-32.png">
 
   ### IDE Remix
 
