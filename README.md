@@ -1,8 +1,9 @@
+## Introdução
+ O Hyperledger Indy  é um framework de código com foco em criaçao sistemas de identidade descentralizadas e auto-soberanas.
 
-**Este repositório é baseado em uma prova de conceito (PoC) da DSR. O objetivo era comprovar a viabilidade de usar o Indy Besu como base para o Indy Ledger e demonstrar como isso poderia ser realizado.**
+O Hyperledger Besu é uma implementação de código aberto da Ethereum Virtual Machine (EVM) desenvolvida pelo ConsenSys.O Besu é projetado para ser altamente modular e flexível, permitindo que organizações construam redes de blockchain privadas, públicas ou híbridas. Ele suporta a execução de contratos inteligentes e a interoperabilidade com redes Ethereum.
 
-
-#### 🔎 [Saiba mais...](https://github.com/DSRCorporation/indy-node)
+Este  repositório faz parte de uma prova de conceito (PoC) que tem por objetivo  oferecer a possibilidade de uso do Hyperledger Besu como base para uma Ledger Indy  na criação  de identidade descentralizadas, mais especificamente, a parte de estabelecimento da rede Besu. 
 
 ## Executando rede local
 
@@ -10,8 +11,10 @@
 ### Pré-requisitos
 
 - [Docker e Docker-compose](https://docs.docker.com/compose/install/) v2 ou superior
+  
+- [Carteira Metamask ](https://metamask.io/) 
 
->
+  
 ⚠️ **Observação**: Se estiver no MacOS ou Windows, certifique-se de permitir que o docker use até 4G de memória na seção _Recursos_. Os sites [Docker for Mac](https://docs.docker.com/docker-for-mac/) e [Docker Desktop](https://docs.docker.com/docker-for-windows/) têm detalhes sobre como fazer isso no título "Recursos"
 
 ## Comandos
@@ -44,8 +47,27 @@
     ```
 
 ## 📄 Inicializando contratos Inteligentes 
+ 
+  ### Metamask
+O MetaMask é uma carteira de criptomoedas e uma extensão de navegador que permite aos usuários acessar a blockchain Ethereum e interagir com aplicativos descentralizados (dApps). Ele facilita o gerenciamento de chaves privadas, armazenamento e envio de tokens Ethereum, além de possibilitar a interação com contratos inteligentes. Atuando como uma ponte entre o navegador e a blockchain Ethereum, o MetaMask torna mais fácil para os usuários acessarem dApps diretamente de seus navegadores, sem a necessidade de executar um nó Ethereum completo, o que amplia a acessibilidade e o uso dos aplicativos descentralizados.
 
-   [Abra a IDE remix](https://remix.ethereum.org/)
+  #### Configurando Metamask
+
+  Em adicionar rede, configure sua Metamask com seu endereço de IP e porta 8545 no campo "New RPC URL" e 1337 em "Chain ID".
+
+  
+   `OBS: as configurações de Porta e Chain Id podem ser alteradas no genesis.json [.network/config/besu/genesis.json]`
+
+
+<img src="./img/CCaptura de tela de 2024-02-19 12-40-32.png">
+
+  ### IDE Remix
+
+  A  Remix é uma ferramenta de desenvolvimento integrado (IDE, na sigla em inglês) usada para escrever, testar e implantar contratos inteligentes na blockchain Ethereum. Ela é amplamente utilizada por desenvolvedores de contratos inteligentes devido à sua interface amigável e recursos robustos.
+
+Para interação com os contratos inteligentes [abra a IDE remix](https://remix.ethereum.org/)
+
+#### Interagindo com os contratos:
 
 * #### Faça o upload da pasta contracts do repositório para a IDE:
    
