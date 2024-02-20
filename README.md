@@ -76,6 +76,8 @@ Para interação com os contratos inteligentes [abra a IDE remix](https://remix.
       2. Navegue até a pasta em seu computador que deseja fazer o upload. (../indy-besu/smart_contracts/contracts )
       3. Selecione os arquivos que deseja fazer upload.
 
+
+
   <img src="./img/Captura de tela de 2024-02-08 08-33-58.png">
 
 * #### Selecione os contratos:
@@ -83,6 +85,8 @@ Para interação com os contratos inteligentes [abra a IDE remix](https://remix.
       2. Localize o arquivo do contrato que você deseja selecionar na lista.
       3. Clique no nome do arquivo do contrato. Isso abrirá o código do contrato no editor da IDE Remix.
       4. Agora você pode compilar, implantar ou interagir com o contrato selecionado usando as opções disponíveis na IDE.
+
+  
 
   <img src="./img/Captura de tela de 2024-02-08 10-59-44.png">
 
@@ -96,7 +100,21 @@ Para interação com os contratos inteligentes [abra a IDE remix](https://remix.
       5. Após a conclusão da compilação, a IDE Remix exibirá uma mensagem indicando se a compilação foi bem-sucedida ou se houve algum erro. Se houver erros, eles serão destacados para que você possa corrigi-los.
       6. Se a compilação for bem-sucedida, você poderá prosseguir com a implantação e a interação com o contrato inteligente.
 
+
+
   <img src="./img/Captura de tela de 2024-02-08 08-38-35.png">
+
+  
+- #### Chame os contratos inteligentes:
+   
+      1. Depois de carregar o contrato, vá para a seção "Deploy & Run Transactions" na parte inferior da interface da Remix. Na parte superior dessa seção, você verá um campo "At Address". Insira o endereço do contrato inteligente neste campo.
+      2. Matenha o contrato em questão aberto em sua IDE.
+      3. Depois de chamar o contrato inteligente, você poderá interagir com ele na Remix. Você verá as funções do contrato listadas na seção "Deployed Contracts" abaixo do campo "At Address". Você pode selecionar uma função e fornecer os argumentos necessários para chamar essa função.
+
+
+
+  <img src="./img/Captura de tela de 2024-02-08 08-46-25.png">
+
 
 - #### No arquivo genesis.json você   encontrará  o endereço do contrato:
 
@@ -107,15 +125,6 @@ Para interação com os contratos inteligentes [abra a IDE remix](https://remix.
   <img src="./img/Captura de tela de 2024-02-08 08-44-37.png">
   
 
-- #### Chame os contratos inteligentes:
-   
-      1. Depois de carregar o contrato, vá para a seção "Deploy & Run Transactions" na parte inferior da interface da Remix. Na parte superior dessa seção, você verá um campo "At Address". Insira o endereço do contrato inteligente neste campo.
-      2. Matenha o contrato em questão aberto em sua IDE.
-      3. Depois de chamar o contrato inteligente, você poderá interagir com ele na Remix. Você verá as funções do contrato listadas na seção "Deployed Contracts" abaixo do campo "At Address". Você pode selecionar uma função e fornecer os argumentos necessários para chamar essa função.
-
-
-
-  <img src="./img/Captura de tela de 2024-02-08 08-46-25.png">
 
      #### Lista de endereço dos contratos:
 
