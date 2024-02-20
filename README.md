@@ -107,7 +107,7 @@ Para interação com os contratos inteligentes [abra a IDE remix](https://remix.
   <img src="./img/Captura de tela de 2024-02-08 08-44-37.png">
   
 
-  - #### Chame os contratos inteligentes:
+- #### Chame os contratos inteligentes:
    
       1. Depois de carregar o contrato, vá para a seção "Deploy & Run Transactions" na parte inferior da interface da Remix. Na parte superior dessa seção, você verá um campo "At Address". Insira o endereço do contrato inteligente neste campo.
       2. Matenha o contrato em questão aberto em sua IDE.
